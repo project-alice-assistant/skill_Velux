@@ -1,0 +1,20 @@
+{
+    "name": "Velux",
+    "version": "0.0.1",
+    "author": "Psychokiller1888",
+    "maintainers": [],
+    "desc": "Control your velux equipment with your voice! this requires a velux remote hack",
+    "aliceMinVersion": "1.0.0-a6",
+    "systemRequirements": [
+        ""
+    ],
+    "pipRequirements": [
+        ""
+    ],
+    "conditions": {
+        "lang": [
+            "en"
+        ],
+        "asrArbitraryCapture": true
+    }
+}
