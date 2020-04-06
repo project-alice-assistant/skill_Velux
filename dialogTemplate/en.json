@@ -116,7 +116,6 @@
         		"{close:=>Action} the {windows:=>Device} in the {office:=>Room}",
         		"can you please {close:=>Action} the {windows:=>Device} in the {office:=>Room}",
         		"can you {close:=>Action} the {windows:=>Device} in the {office:=>Room} please",
-        		"can you {close:=>Action} the {windows:=>Device} in the {office:=>Room} please",
         		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Room} {for 15 minutes:=>Duration}",
         		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Room} {for 15 minutes:=>Duration} please",
         		"can you please {open:=>Action} the {windows:=>Device} in the {bathroom:=>Room} {for 15 minutes:=>Duration}",
