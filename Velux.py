@@ -32,7 +32,7 @@ class Velux(AliceSkill):
 				text=self.randomTalk(text='willDoLater')
 			)
 		else:
-			room = session.slotValue(slotName='Room', defaultValue=session.siteId)
+			location = session.slotValue(slotName='Location', defaultValue=session.siteId)
 			action = session.slotValue(slotName='Action', defaultValue='open')
 			device = session.slotValue(slotName='Device', defaultValue='windows')
 			duration = session.slotValue(slotName='Duration', defaultValue=-1)
@@ -41,7 +41,7 @@ class Velux(AliceSkill):
 			self.publish(
 				topic=f'projectalice/devices/{device}/{action}',
 				payload = {
-					'room'      : room,
+					'location'  : location,
 					'duration'  : duration,
 					'percentage': percentage
 				}
