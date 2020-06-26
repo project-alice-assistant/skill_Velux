@@ -111,15 +111,15 @@
         		"can you {close:=>Action} the {windows:=>Device} please",
         		"could you please {close:=>Action} the {windows:=>Device}",
         		"could you {close:=>Action} the {windows:=>Device} please",
-        		"could you {close:=>Action} the {windows:=>Device} in the {office:=>Room} please",
-        		"could you {close:=>Action} the {windows:=>Device} in the {office:=>Room}",
-        		"{close:=>Action} the {windows:=>Device} in the {office:=>Room}",
-        		"can you please {close:=>Action} the {windows:=>Device} in the {office:=>Room}",
-        		"can you {close:=>Action} the {windows:=>Device} in the {office:=>Room} please",
-        		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Room} {for 15 minutes:=>Duration}",
-        		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Room} {for 15 minutes:=>Duration} please",
-        		"can you please {open:=>Action} the {windows:=>Device} in the {bathroom:=>Room} {for 15 minutes:=>Duration}",
-        		"do {open:=>Action} the {windows:=>Device} in the {bathroom:=>Room} {for 15 minutes:=>Duration}"
+        		"could you {close:=>Action} the {windows:=>Device} in the {office:=>Location} please",
+        		"could you {close:=>Action} the {windows:=>Device} in the {office:=>Location}",
+        		"{close:=>Action} the {windows:=>Device} in the {office:=>Location}",
+        		"can you please {close:=>Action} the {windows:=>Device} in the {office:=>Location}",
+        		"can you {close:=>Action} the {windows:=>Device} in the {office:=>Location} please",
+        		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration}",
+        		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration} please",
+        		"can you please {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration}",
+        		"do {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration}"
         	],
         	"slots": [
         		{
@@ -151,7 +151,7 @@
                     "missingQuestion": ""
                 },
                 {
-                    "name": "Room",
+                    "name": "Location",
                     "description": null,
                     "required": false,
                     "type": "Alice/Location",
