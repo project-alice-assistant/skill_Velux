@@ -1,7 +1,5 @@
 {
     "skill": "Velux",
-    "icon": "time",
-    "description": "Control your velux equipment with your voice! this requires a velux remote hack",
     "slotTypes": [
         {
             "name": "VeluxAction",
@@ -51,7 +49,6 @@
     "intents": [
         {
         	"name": "Velux_DoAction",
-        	"description": "The user wants to drive a Velux equipement",
         	"enabledByDefault": true,
         	"utterances": [
         		"{close:=>Action} the {windows:=>Device}",
