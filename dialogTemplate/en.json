@@ -121,35 +121,30 @@
         	"slots": [
         		{
         			"name": "Action",
-        			"description": null,
         			"required": false,
         			"type": "VeluxAction",
         			"missingQuestion": ""
         		},
                 {
                     "name": "Device",
-                    "description": null,
                     "required": false,
                     "type": "VeluxDevice",
                     "missingQuestion": ""
                 },
                 {
                     "name": "Percentage",
-                    "description": null,
                     "required": false,
                     "type": "snips/percentage",
                     "missingQuestion": ""
                 },
                 {
                     "name": "Duration",
-                    "description": null,
                     "required": false,
                     "type": "snips/duration",
                     "missingQuestion": ""
                 },
                 {
                     "name": "Location",
-                    "description": null,
                     "required": false,
                     "type": "Alice/Location",
                     "missingQuestion": ""
